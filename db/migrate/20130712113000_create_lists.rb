@@ -1,5 +1,3 @@
-require_relative '../config'
-
 class CreateLists < ActiveRecord::Migration
   def change
     create_table :lists do |l|
